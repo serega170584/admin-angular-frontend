@@ -25,7 +25,8 @@ import { AuthFormComponent } from './auth-form/auth-form.component';
     BrowserAnimationsModule,
     MatGridListModule,
     MatToolbarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
