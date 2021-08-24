@@ -306,7 +306,7 @@
 <div class="content" role="main">
   <mat-form-field appearance="fill">
     <mat-label>Enter your login</mat-label>
-    <input matInput placeholder="admin" [formControl]="login" required>
+    <input matInput placeholder="admin" [formControlName]="login" required>
     <mat-error *ngIf="login.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
   <mat-form-field appearance="fill">
