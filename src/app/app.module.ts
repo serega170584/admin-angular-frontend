@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { GridListComponent } from './grid-list/grid-list.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { AuthFormComponent } from './auth-form/auth-form.component';
@@ -22,7 +23,8 @@ import { AuthFormComponent } from './auth-form/auth-form.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
