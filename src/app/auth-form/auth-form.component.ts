@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-auth-form',
@@ -7,7 +8,8 @@ import { FormControl, Validators } from '@angular/forms';
   styleUrls: ['./auth-form.component.css']
 })
 export class AuthFormComponent implements OnInit {
-  public login = new FormControl('', [Validators.required]);
+  login = new FormControl('', [Validators.required]);
+  url = environment.apiUrl;
   hide = true;
 
   constructor() { }
